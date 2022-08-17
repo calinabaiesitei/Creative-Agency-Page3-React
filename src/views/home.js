@@ -27,15 +27,18 @@ const Home = (props) => {
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text heading1">
-                My name is John and I am a sdf UI/UX Designer
+              <h1 className="home-text">
+                <span className="heading1 home-text001">
+                  My name is John and I am a sdf UI/UX Designer from TeleportHQ
+                </span>
+                <br></br>
               </h1>
               <iframe
                 src="https://open.spotify.com/embed/track/4ZeBVxDZOOcoEELB3YVSjX?utm_source=generator"
                 allow="autoplay"
                 className="home-iframe"
               ></iframe>
-              <span className="home-text001">
+              <span className="home-text003">
                 <span>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod
@@ -69,7 +72,7 @@ const Home = (props) => {
           <div className="home-max-width1 max-content-container">
             <div className="home-heading-container1">
               <div className="home-text-container">
-                <span className="home-text005">our services</span>
+                <span className="home-text007">our services</span>
                 <h2 className="heading2">
                   <span>
                     We provide a wide range of
@@ -105,12 +108,12 @@ const Home = (props) => {
                     className="home-image"
                   />
                 </div>
-                <span className="home-text010">Website design</span>
-                <span className="home-text011">
+                <span className="home-text012">Website design</span>
+                <span className="home-text013">
                   Create your ubest unique App development, crafted for your
                   business needs.
                 </span>
-                <span className="home-text012">Learn more</span>
+                <span className="home-text014">Learn more</span>
               </div>
               <div className="services-card">
                 <div className="home-container10">
@@ -120,12 +123,12 @@ const Home = (props) => {
                     className="home-image01"
                   />
                 </div>
-                <span className="home-text013">Copy-writting</span>
-                <span className="home-text014">
+                <span className="home-text015">Copy-writting</span>
+                <span className="home-text016">
                   Create your ubest unique App development, crafted for your
                   business needs.
                 </span>
-                <span className="home-text015">Learn more</span>
+                <span className="home-text017">Learn more</span>
               </div>
               <ServicesCard
                 text="Product Design"
@@ -138,13 +141,13 @@ const Home = (props) => {
           <div className="home-max-width2 max-content-container">
             <TextContainer></TextContainer>
             <div className="home-tab-selector-header">
-              <span className="home-text016 tab-selector-btn">Advertising</span>
-              <span className="home-text017 tab-selector-btn">
+              <span className="home-text018 tab-selector-btn">Advertising</span>
+              <span className="home-text019 tab-selector-btn">
                 Social Media
               </span>
-              <span className="home-text018 tab-selector-btn">Branding</span>
-              <span className="home-text019 tab-selector-btn">UI / UX</span>
-              <span className="home-text020 tab-selector-btn">Packaging</span>
+              <span className="home-text020 tab-selector-btn">Branding</span>
+              <span className="home-text021 tab-selector-btn">UI / UX</span>
+              <span className="home-text022 tab-selector-btn">Packaging</span>
               <span className="tab-selector-btn">Product Design</span>
             </div>
             <div className="home-tab-selector-cards-container">
@@ -261,8 +264,8 @@ const Home = (props) => {
         <div className="home-about section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-text-container1">
-              <span className="home-text022">about us</span>
-              <h2 className="home-text023 heading2">
+              <span className="home-text024">about us</span>
+              <h2 className="home-text025 heading2">
                 <span>
                   We build brands with
                   <span
@@ -274,7 +277,7 @@ const Home = (props) => {
                 <br></br>
                 <span>purpose and impact</span>
               </h2>
-              <span className="home-text027">
+              <span className="home-text029">
                 We are a full-service digital creative agency with brick and
                 mortar offices and plenty of in-house talent.
               </span>
@@ -283,7 +286,7 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon04">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text028">
+                  <span className="home-text030">
                     Quality services and support all time
                   </span>
                 </div>
@@ -291,7 +294,7 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon06">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text029">
+                  <span className="home-text031">
                     Long-term strategy development
                   </span>
                 </div>
@@ -299,7 +302,7 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon08">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text030">
+                  <span className="home-text032">
                     FREE Brand Audit for startups
                   </span>
                 </div>
@@ -307,7 +310,7 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon10">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text031">
+                  <span className="home-text033">
                     Over 10 years in the business
                   </span>
                 </div>
@@ -315,13 +318,13 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon12">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text032">Future-Proofing Projects</span>
+                  <span className="home-text034">Future-Proofing Projects</span>
                 </div>
                 <div className="home-check-item5">
                   <svg viewBox="0 0 1024 1024" className="home-icon14">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span className="home-text033">
+                  <span className="home-text035">
                     Support in any implementation
                   </span>
                 </div>
@@ -338,8 +341,8 @@ const Home = (props) => {
         </div>
         <div className="home-process section-container">
           <div className="home-max-width4 max-content-container">
-            <span className="home-text034">Our process</span>
-            <h2 className="home-text035 heading2">
+            <span className="home-text036">Our process</span>
+            <h2 className="home-text037 heading2">
               <span>
                 We use a simple three step process.
                 <span
@@ -353,10 +356,10 @@ const Home = (props) => {
             </h2>
             <div className="home-step">
               <div className="home-container11">
-                <span className="home-text039">01</span>
+                <span className="home-text041">01</span>
                 <div className="home-container12">
-                  <span className="home-text040">Finding the best idea</span>
-                  <span className="home-text041">
+                  <span className="home-text042">Finding the best idea</span>
+                  <span className="home-text043">
                     There are countless businesses already in existence, so it’s
                     very likely that you won’t be the first person to think of
                     an idea or product. There are countless businesses already
@@ -372,9 +375,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step1">
-              <span className="home-text042">02</span>
+              <span className="home-text044">02</span>
               <div className="home-container13">
-                <span className="home-text043">
+                <span className="home-text045">
                   Intense Brain storming
                   <span
                     dangerouslySetInnerHTML={{
@@ -382,7 +385,7 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text044">
+                <span className="home-text046">
                   Brainstorming is a process of toiling and generating new ideas
                   alone or by holding intensive group discussions between team
                   members in a team.
@@ -390,10 +393,10 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step2">
-              <span className="home-text045">03</span>
+              <span className="home-text047">03</span>
               <div className="home-container14">
-                <span className="home-text046">Strong design execution</span>
-                <span className="home-text047">
+                <span className="home-text048">Strong design execution</span>
+                <span className="home-text049">
                   As a creative, using your professional judgement, you should
                   begin filtering your various ideas and designs, retaining the
                   strongest relevant material.
@@ -404,11 +407,11 @@ const Home = (props) => {
         </div>
         <div className="section-container">
           <div className="home-max-width5 max-content-container">
-            <span className="home-text048">from blog</span>
-            <h2 className="home-text049 heading2">
+            <span className="home-text050">from blog</span>
+            <h2 className="home-text051 heading2">
               <span>Our latest articles and resources</span>
             </h2>
-            <span className="home-text051">
+            <span className="home-text053">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt
@@ -438,9 +441,9 @@ const Home = (props) => {
                   <button className="home-button08 button-secondary button">
                     Web Design
                   </button>
-                  <span className="home-text055">Dec 8, 2022</span>
+                  <span className="home-text057">Dec 8, 2022</span>
                 </div>
-                <span className="home-text056">
+                <span className="home-text058">
                   <span>
                     Excepteur sint occaecat cupidatat non proident, sunt
                     <span
@@ -451,7 +454,7 @@ const Home = (props) => {
                   </span>
                   <span>in culpa qui and.</span>
                 </span>
-                <span className="home-text059">Learn more</span>
+                <span className="home-text061">Learn more</span>
               </div>
               <div className="home-container17">
                 <img
@@ -463,9 +466,9 @@ const Home = (props) => {
                   <button className="home-button09 button-secondary button">
                     advertising
                   </button>
-                  <span className="home-text060">Aug 14, 2022</span>
+                  <span className="home-text062">Aug 14, 2022</span>
                 </div>
-                <span className="home-text061">
+                <span className="home-text063">
                   <span>
                     Excepteur sint occaecat cupidatat non proident, sunt
                     <span
@@ -476,7 +479,7 @@ const Home = (props) => {
                   </span>
                   <span>in culpa qui and.</span>
                 </span>
-                <span className="home-text064">Learn more</span>
+                <span className="home-text066">Learn more</span>
               </div>
               <div className="home-container19">
                 <img
@@ -488,9 +491,9 @@ const Home = (props) => {
                   <button className="home-button10 button-secondary button">
                     Branding
                   </button>
-                  <span className="home-text065">Jul 12, 2022</span>
+                  <span className="home-text067">Jul 12, 2022</span>
                 </div>
-                <span className="home-text066">
+                <span className="home-text068">
                   <span>
                     Excepteur sint occaecat cupidatat non proident, sunt
                     <span
@@ -501,18 +504,18 @@ const Home = (props) => {
                   </span>
                   <span>in culpa qui and.</span>
                 </span>
-                <span className="home-text069">Learn more</span>
+                <span className="home-text071">Learn more</span>
               </div>
             </div>
           </div>
         </div>
         <div className="home-banner section-container">
           <div className="home-max-width6 max-content-container">
-            <span className="home-text070">what are you waiting?</span>
-            <h2 className="home-text071 heading2">
+            <span className="home-text072">what are you waiting?</span>
+            <h2 className="home-text073 heading2">
               <span>Let’s collaborate!</span>
             </h2>
-            <span className="home-text073">
+            <span className="home-text075">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt
@@ -539,20 +542,20 @@ const Home = (props) => {
           <div className="home-top-part">
             <div className="home-links-container">
               <div className="home-product-container">
-                <span className="home-text077">Product</span>
-                <span className="home-text078">About</span>
-                <span className="home-text079">Portofolio</span>
+                <span className="home-text079">Product</span>
+                <span className="home-text080">About</span>
+                <span className="home-text081">Portofolio</span>
                 <span>Blog</span>
               </div>
               <div className="home-navigate-container">
-                <span className="home-text081">Navigate</span>
-                <span className="home-text082">Copyrights</span>
-                <span className="home-text083">Sitemap</span>
+                <span className="home-text083">Navigate</span>
+                <span className="home-text084">Copyrights</span>
+                <span className="home-text085">Sitemap</span>
                 <span>Privacy Policy</span>
               </div>
               <div className="home-contact-container">
-                <span className="home-text085">Contact Us</span>
-                <span className="home-text086">
+                <span className="home-text087">Contact Us</span>
+                <span className="home-text088">
                   <span>2157 Village View</span>
                   <br></br>
                   <span>
@@ -578,7 +581,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-subscribe-container">
-              <span className="home-text094">Subscribe to our newsletter</span>
+              <span className="home-text096">Subscribe to our newsletter</span>
               <input
                 type="text"
                 placeholder="Enter your e-mail address"
@@ -595,7 +598,7 @@ const Home = (props) => {
             src="/playground_assets/logo1-200h.png"
             className="home-image13"
           />
-          <span className="home-text095">
+          <span className="home-text097">
             <span>
               All rights recived @
               <span
@@ -604,7 +607,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text097">
+            <span className="home-text099">
               aesthetics
               <span
                 dangerouslySetInnerHTML={{
@@ -620,7 +623,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text099">teleporhq.io</span>
+            <span className="home-text101">teleporhq.io</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
